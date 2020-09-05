@@ -1,0 +1,271 @@
+<html>
+<title>Bouquet Garni</title>
+<!DOCTYPE html>
+<html>
+
+
+      <img src="https://i.ibb.co/TRQNXPK/logo.jpg" >
+
+
+      <div style="background-image: url('https://i.ibb.co/f4dKQm3/chef.jpg');">
+        
+               
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <head>
+     
+        <style>
+             
+        
+          #myDIV {
+            
+            border: 1px solid black;
+          background-color: lightblue;
+          width: 200px;
+          height: 180px;
+          overflow: auto;
+         
+          }
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+
+        </style>
+            
+
+        
+      
+        <body style="background-color:white"></body>
+<body>
+<style>
+            
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 30px;
+  right: 120px;
+  font-size: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 15px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+<div id="myNav" class="overlay" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Início</a>
+    <a href="#">Pratos</a>
+    <a href="#">Mapa</a>
+    <a href="#">Cadastrar</a>
+    <a href="#">Quem somos</a>
+    <a href="#">Contato</a>
+  </div>
+</div>
+
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; 	</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "22%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+             
+    
+    <p style="font-size:20px" ><font><b>CADASTRAR</b></font></p>
+  
+
+<form name="frmTeste" method="post" action="#" onsubmit="return validaForm(this);">
+  
+<form class="form-horizontal" role="form">
+	<div class="form-group" >
+		<label for="inputNome1" class="col-lg-2 control-label">Nome</label>
+		<div class="col-lg-10">
+			<input type="nome" class="form-control" id="inputNome" placeholder="">
+		</div>
+  </div>
+  
+	<div class="form-group"><div class="form-group" >		<div class="col-lg-offset-2 col-lg-10">
+				
+		</div>
+	</div>
+
+		<label for="cpf/cnpj" class="col-lg-2 control-label">CPF ou CNPJ</label>
+		<div class="col-lg-10">
+			<input type="cpf/cnpj" class="form-control" id="cpf/cnpj" placeholder="">
+		</div>
+	</div>
+	<div class="form-group" >
+		<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+		<div class="col-lg-10">
+			<input type="email" class="form-control" id="inputEmail1" placeholder="">
+		</div>
+	</div>
+	<div class="form-group" >
+		<label for="inputPassword1" class="col-lg-2 control-label">Senha</label>
+		<div class="col-lg-10">
+			<input type="password" class="form-control" id="inputPassword1" placeholder="">
+		</div>
+	</div>
+
+
+<div class="form-group" >
+		<label for="Endereco" class="col-lg-2 control-label">Endereço</label>
+		<div class="col-lg-10">
+			<input type="endereco" class="form-control" id="endereco" placeholder="">
+		</div>
+	</div>
+<div class="form-group" >
+		<label for="cidade" class="col-lg-2 control-label">Cidade</label>
+		<div class="col-lg-10">
+			<input type="cidade" class="form-control" id="cidade" placeholder="">
+		</div>
+	</div>
+<div class="form-group" >
+		<label for="Bairro" class="col-lg-2 control-label">Bairro</label>
+		<div class="col-lg-10">
+			<input type="bairro" class="form-control" id="bairro" placeholder="">
+		</div>
+	</div>
+<div class="form-group" >
+		<label for="Complemento" class="col-lg-2 control-label">Complemento</label>
+		<div class="col-lg-10">
+			<input type="complemento" class="form-control" id="complemento" placeholder="">
+		</div>
+	</div>
+<div class="form-group" >
+		<label for="CEP" class="col-lg-2 control-label">CEP</label>
+		<div class="col-lg-10">
+			<input type="cep" class="form-control" id="cep" placeholder="">
+		</div>
+	</div>
+
+
+	<div class="form-group" >
+		<div class="col-lg-offset-2 col-lg-10">
+			
+		</div>
+	</div>
+	<div class="form-group" >
+</div>
+
+
+
+</form>
+ 
+
+  <p>Estado
+    <select name="Estado">
+      <option value="AC">AC</option>
+      <option value="AL">AL</option>
+      <option value="AP">AP</option>
+      <option value="AM">AM</option>
+<option value="BA">BA</option>
+<option value="CE">CE</option>
+<option value="DF">DF</option>
+<option value="ES">ES</option>
+   <option value="GO">GO</option>
+      <option value="MA">MA</option>
+      <option value="AL">AL</option>
+      <option value="MT">MT</option>
+      <option value="MS">MS</option>
+<option value="MG">MG</option>
+<option value="PA">PA</option>
+<option value="PB">PB</option>
+<option value="PR">PR</option>
+<option value="PE">PE</option>
+   <option value="PI">PI</option>
+      <option value="RJ">RJ</option>
+      <option value="RN">RN</option>
+      <option value="RS">RS</option>
+<option value="RO">RO</option>
+<option value="RR">RR</option>
+<option value="SC">SC</option>
+<option value="SP">SP</option>
+<option value="SE">SE</option>
+<option value="TO">TO</option>
+
+
+</p>
+
+
+</select>
+
+ <p>Defina
+    <select name="categorias">
+      <option value="Cliente">Cliente</option>
+      <option value="Restaurante">Restaurante</option>
+      <option value="Marmitaria">Marmitaria</option>
+      <option value="Pizzaria">Pizzaria</option>
+      <option value="Pastelaria">Pastelaria</option>
+<option value="Sorveteria">Sorveteria</option>
+<option value="Churrascaria">Churrascaria</option>
+<option value="Churros">Churros</option>
+<option value="Outro">Lanchonete</option>
+<option value="Outro">Outro</option>
+</p>
+  
+</form>
+  </select>
+
+  
+<p><label><input type="submit" name="sbt" value="Enviar" /></label></p>
+
+   
+<body>
+
+
+
+
+</div>
+</html>
